@@ -1,0 +1,69 @@
+.user_maindiv{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* background-color: aquamarine; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.user_div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    /* padding-top: 3vh; */
+    /* padding-bottom: 3vh; */
+}
+.user_div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    /* padding-top: 3vh; */
+    /* padding-bottom: 3vh; */
+}
+
+.user_displaybox{
+    background-color: rgba(0, 128, 128, 0.336);
+    border-radius: 4px;
+    height: 35vh;
+    width: 30vw;
+    transition-duration: 0.3s;
+}
+.user_displaybox:hover{
+    background-color: rgba(0, 128, 128, 0.536);
+    transition-duration: 0.3s;
+}
+
+.user_value{
+    /* background-color: seagreen; */
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 6vw;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.user_text{
+    background-color: teal;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: white;
+}
+
+.user_button{
+    /* background-color: salmon; */
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
