@@ -133,7 +133,7 @@ export default function SignupTemplate() {
                                 .then((e) => {
                                     // console.log('new user details')
                                     // console.log(e)
-                                    CreateDatabaseTemplate()
+                                    CreateDatabaseTemplate(credentials.Email)
                                     history.push('/mainpage');
                                     alert(' New user created, status: Ok');
 
@@ -166,10 +166,10 @@ export default function SignupTemplate() {
     );
 }
 
-function CreateDatabaseTemplate() {
+function CreateDatabaseTemplate(email) {
     if (firebaseServices.auth().currentUser !== null){
         let uid = firebaseServices.auth().currentUser.uid;
-        firebaseServices.database().ref(`/authUsers/${uid}`).set({role:'user'});
+        firebaseServices.database().ref(`/authUsers/${uid}`).set({role:'user', email: email});
         // console.log(!(records[monthsArr[index]].paid))
       }
     
