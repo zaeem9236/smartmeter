@@ -1,67 +1,73 @@
 {
   "Admin" : {
     "Apr" : {
-      "billAmount" : 200,
+      "billAmount" : 0,
       "paid" : false
     },
     "Aug" : {
-      "billAmount" : 200,
+      "billAmount" : 0,
       "paid" : false
     },
     "Dec" : {
-      "billAmount" : 200,
+      "billAmount" : 0,
       "paid" : false
     },
     "Feb" : {
-      "billAmount" : 200,
+      "billAmount" : 0.99733,
       "paid" : false
     },
     "Jan" : {
-      "billAmount" : 200,
-      "paid" : false
+      "billAmount" : 0.49693,
+      "paid" : true
     },
     "Jul" : {
-      "billAmount" : 200,
+      "billAmount" : 0,
       "paid" : false
     },
     "Jun" : {
-      "billAmount" : 200,
+      "billAmount" : 0,
       "paid" : false
     },
     "Mar" : {
-      "billAmount" : 200,
+      "billAmount" : 1.19377,
       "paid" : false
     },
     "May" : {
-      "billAmount" : 200,
+      "billAmount" : 0,
       "paid" : false
     },
     "Nov" : {
-      "billAmount" : 200,
+      "billAmount" : 0,
       "paid" : false
     },
     "Oct" : {
-      "billAmount" : 200,
+      "billAmount" : 0,
       "paid" : false
     },
     "Sep" : {
-      "billAmount" : 200,
+      "billAmount" : 0,
       "paid" : false
     }
   },
   "User" : {
-    "billAmount" : 200,
-    "current" : 5,
-    "power" : 11,
-    "powerFactor" : 0.3,
-    "unitsConsume" : 222,
+    "billAmount" : 1.19377,
+    "current" : 0.58076,
+    "power" : 108.60188,
+    "powerFactor" : 85,
+    "unitsConsume" : 23.87546,
     "voltage" : 220
   },
   "authUsers" : {
     "P1ysOyxeKVX53TETGG7Ioa88u5z1" : {
+      "email" : "admin@smartmeter.com",
       "role" : "admin"
     },
     "mdpP5MkbE0fVnLwRVIM8DBQAQ2I3" : {
+      "email" : "user@smartmeter.com",
+      "role" : "user"
+    },
+    "xHzf1YNT5DUjCZe5AUc4exKNfBk2" : {
+      "email" : "obaid@smartmeter.com",
       "role" : "user"
     }
   }
